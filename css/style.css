@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/countdown-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+}
+h1{
+    font-size: 3rem;
+    margin-top: -8rem;
+    color: #E32636;
+
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 5rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    font-weight: bold;
+}
+
+.countdown-el{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
+.days-c{
+    color: #1A3300;
+}
+.hours-c{
+    color: #0ab34a;
+}
+.minutes-c{
+    color: rgb(104, 41, 129);
+}
+.seconds-c{
+    color: #E32636;
+}
